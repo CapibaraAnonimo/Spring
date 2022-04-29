@@ -1,10 +1,9 @@
 package com.openwebinars.primerproyecto;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data @NoArgsConstructor @AllArgsConstructor
+@Data @NoArgsConstructor
 public class Producto {
 	
 	private String nombre;

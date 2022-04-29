@@ -1,13 +1,12 @@
 package com.salesianostriana.dam.operacionesycondiciones;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 //Con dependencia Lombok no haría falta constructor con todos los parámetros y getters and setters
 //toString, etc.
 
-@Data @NoArgsConstructor @AllArgsConstructor
+@Data @NoArgsConstructor
 public class Producto {
 	
 	private String nombre;
